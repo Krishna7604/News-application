@@ -1,0 +1,38 @@
+.newsbox {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.newsbox .content{
+    margin-left: 19px;
+}
+
+.newsbox .content a{
+    text-decoration: none;
+}
+
+.newsbox .content h1 {
+    color: #000;
+
+    margin-bottom: 10px;
+}
+
+.newsbox p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+.newsbox .content .description a{
+    text-decoration: none;
+    color:#606060
+}
+.newsbox .content .description{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#323
+}

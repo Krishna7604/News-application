@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+.head h1{
+    background-color: brown;
+    color: bisque;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.head p{
+    margin:0 10px ;
+}
+.other input{
+    padding: 15px;
+    margin: 0 15px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: medium;
+
+}
+.other input::placeholder{
+    color: white;
+}
+.head h1 a{
+    text-decoration: none;color: bisque;
+}
+.head .about{
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
