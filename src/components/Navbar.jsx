@@ -8,7 +8,7 @@ const Navbar=()=>{
         e.preventDefault();
         const getNews=async ()=>{
         try{
-            const response=await fetch(`https://newsapi.org/v2/everything?q=`+value+`&apiKey=4caf32751b2546859dfea1af0b81c4b3`)
+            const response=await fetch(`https://newsapi.org/v2/everything?q=`+value+`&apiKey=API_KEY`)
             const json=await response.json();
             if (json["articles"])
             setNews(json["articles"]);
